@@ -1,0 +1,17 @@
+{
+  "name": "podzol",
+  "version": "0.0.0",
+  "description": "A fallback Minecraft server",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "minecraft",
+    "fallback",
+    "podzol",
+    "server"
+  ],
+  "author": "DolphinTech",
+  "license": "ISC"
+}
