@@ -1,1 +1,3 @@
-{"port":25565}
+{"port":25565,
+ "login-message":{"text":"Welcome to Minecraft.Tools","bold":true,"color":"dark_aqua","clickEvent":{"action":"open_url","value":"www.google.at"}}
+}

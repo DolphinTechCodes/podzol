@@ -1,8 +1,12 @@
 {
   "name": "podzol",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "A fallback Minecraft server",
-  "main": "index.js",
+  "main": "lib/podzol.js",
+  "preferGlobal": true,
+  "bin": {
+    "podzol": "bin/podzol"
+  },
   "scripts": {
     "test": "test"
   },
@@ -16,7 +20,6 @@
   "license": "ISC",
   "dependencies": {
     "is-running": "^2.1.0",
-    "minimist": "^1.2.0",
-    "varint": "^5.0.0"
+    "minimist": "^1.2.0"
   }
 }

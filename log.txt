@@ -1,126 +1,237 @@
-[INFO | 12:54:7] Starting server...
-[INFO | 12:54:7] Loaded config.json.
-[INFO | 12:54:7] Server started. Listening to port 25565.
-[INFO | 12:54:7] Loaded server-icon.png.
-[INFO | 12:54:18] Incoming connection from ::ffff:127.0.0.1.
-0 0
-{ protocolVersion: 335,
-  serverAddress: 'localhost',
-  serverPort: 56675,
-  nextState: 1 }
-[INFO | 12:54:18] Recieved handshake package from ::ffff:127.0.0.1.
-[INFO | 12:54:48] Connection::ffff:127.0.0.1 ended.
-[INFO | 12:54:48] Connection::ffff:127.0.0.1 closed.
-[INFO | 12:54:48] Incoming connection from ::ffff:127.0.0.1.
-122 0
-{ protocolVersion: 11,
-  serverAddress: '',
-  serverPort: 77,
-  nextState: 67 }
-D:\node\podzol\lib\parse.js:26
-        if (pkg.nextState > 2 || pkg.nextState < 1) throw new Error("invalid next state field: " + pkg.nextState+data);
-                                                    ^
+[INFO | 17:42:08] Starting server...
+[WARN | 17:42:08] Missing or invalid value for 'max-players' in config.json. Proceeding with default value.
+[WARN | 17:42:08] Missing or invalid value for 'online-players' in config.json. Proceeding with default value.
+[WARN | 17:42:08] Missing or invalid value for 'description' in config.json. Proceeding with default value.
+[WARN | 17:42:08] Missing or invalid value for 'version' in config.json. Proceeding with default value.
+[WARN | 17:42:08] Missing or invalid value for 'protocol' in config.json. Proceeding with default value.
+[INFO | 17:42:08] Loaded config.json.
+events.js:160
+      throw er; // Unhandled 'error' event
+      ^
 
-Error: invalid next state field: 67��
-[INFO | 12:55:57] Starting server...
-[INFO | 12:55:57] Loaded config.json.
-[INFO | 12:55:57] Server started. Listening to port 25565.
-[INFO | 12:55:57] Loaded server-icon.png.
-[INFO | 12:56:4] Incoming connection from ::ffff:127.0.0.1.
-0 0
-{ protocolVersion: 335,
-  serverAddress: 'localhost',
-  serverPort: 56675,
-  nextState: 1 }
-[INFO | 12:56:4] Recieved handshake package from ::ffff:127.0.0.1.
-[INFO | 12:56:34] Connection::ffff:127.0.0.1 ended.
-[INFO | 12:56:34] Connection::ffff:127.0.0.1 closed.
-[INFO | 12:56:34] Incoming connection from ::ffff:127.0.0.1.
-122 0
-{ protocolVersion: 11,
-  serverAddress: '',
-  serverPort: 77,
-  nextState: 67 }
-D:\node\podzol\lib\parse.js:26
-        if (pkg.nextState > 2 || pkg.nextState < 1) throw new Error("invalid next state field: " + pkg.nextState+data.toString("hex"));
-                                                    ^
+Error: listen EADDRINUSE :::255[INFO | 17:44:24] Incoming connection from ::ffff:127.0.0.1.
+[INFO | 17:44:24] Recieved handshake package from ::ffff:127.0.0.1 who is attempting to ping
+[INFO | 17:44:24] Responded with latency pong.
+[INFO | 17:44:24] Connection::ffff:127.0.0.1 closed.
+[INFO | 17:44:51] Incoming connection from ::ffff:127.0.0.1.
+[INFO | 17:44:51] Recieved handshake package from ::ffff:127.0.0.1 who is attempting to ping
+[INFO | 17:44:51] Responded with latency pong.
+[INFO | 17:44:51] Connection::ffff:127.0.0.1 closed.
+[INFO | 18:01:34] Incoming connection from ::ffff:127.0.0.1.
+[INFO | 18:01:34] Recieved handshake package from ::ffff:127.0.0.1 who is attempting to ping
+[INFO | 18:01:34] Responded with latency pong.
+[INFO | 18:01:34] Connection::ffff:127.0.0.1 closed.
+[INFO | 18:01:38] Incoming connection from ::ffff:127.0.0.1.
+[INFO | 18:01:38] Recieved handshake package from ::ffff:127.0.0.1 who is attempting to ping
+[INFO | 18:01:38] Responded with latency pong.
+[INFO | 18:01:38] Connection::ffff:127.0.0.1 closed.
+[INFO | 18:03:36] Incoming connection from ::ffff:127.0.0.1.
+[INFO | 18:03:36] Recieved handshake package from ::ffff:127.0.0.1 who is attempting to ping
+[INFO | 18:03:36] Responded with latency pong.
+[INFO | 18:03:36] Connection::ffff:127.0.0.1 closed.
+WithHostPort (util.js:1043:20)
+    at Server._listen2 (net.js:1258:14)
+    at listen (net.js:1294:10)
+    at Server.listen (net.js:1390:5)
+    at Object.<anonymous> (D:\node\podzol\lib\podzol.js:22:8)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+[INFO | 17:43:10] Starting server...
+[WARN | 17:43:10] Missing or invalid value for 'max-players' in config.json. Proceeding with default value.
+[WARN | 17:43:10] Missing or invalid value for 'online-players' in config.json. Proceeding with default value.
+[WARN | 17:43:10] Missing or invalid value for 'description' in config.json. Proceeding with default value.
+[WARN | 17:43:10] Missing or invalid value for 'version' in config.json. Proceeding with default value.
+[WARN | 17:43:10] Missing or invalid value for 'protocol' in config.json. Proceeding with default value.
+[INFO | 17:43:10] Loaded config.json.
+events.js:160
+      throw er; // Unhandled 'error' event
+      ^
 
-Error: invalid next state field: 67fe01fa000b004d0043007c00500069006e00670048006f0073007400197f0009006c006f00630061006c0068006f00730074000063dd
-    at Socket.module.exports (D:\node\podzol\lib\parse.js:26:59)
-    at emitOne (events.js:96:13)
-    at Socket.emit (events.js:188:7)
-    at readableAddChunk (_stream_readable.js:176:18)
-    at Socket.Readable.push (_stream_readable.js:134:10)
-    at TCP.onread (net.js:547:20)
-[INFO | 13:0:57] Starting server...
-[INFO | 13:0:57] Loaded config.json.
-[INFO | 13:0:57] Server started. Listening to port 25565.
-[INFO | 13:0:57] Loaded server-icon.png.
-[INFO | 13:1:6] Incoming connection from ::ffff:127.0.0.1.
-Package ID: 0    Connection status: 0
-{ protocolVersion: 335,
-  serverAddress: 'localhost',
-  serverPort: 56675,
-  nextState: 1 }
-[INFO | 13:1:6] Recieved handshake package from ::ffff:127.0.0.1.
-[INFO | 13:1:26] Connection::ffff:127.0.0.1 ended.
-[INFO | 13:1:26] Connection::ffff:127.0.0.1 closed.
-[INFO | 13:1:28] Incoming connection from ::ffff:127.0.0.1.
-Package ID: 0    Connection status: 0
-{ protocolVersion: 335,
-  serverAddress: 'localhost',
-  serverPort: 56675,
-  nextState: 1 }
-[INFO | 13:1:28] Recieved handshake package from ::ffff:127.0.0.1.
-[INFO | 13:1:39] Connection::ffff:127.0.0.1 ended.
-[INFO | 13:1:39] Connection::ffff:127.0.0.1 closed.
-[INFO | 13:1:39] Incoming connection from ::ffff:127.0.0.1.
-Package ID: 0    Connection status: 0
-{ protocolVersion: 335,
-  serverAddress: 'localhost',
-  serverPort: 56675,
-  nextState: 2 }
-[INFO | 13:1:39] Recieved handshake package from ::ffff:127.0.0.1.
-[INFO | 13:2:9] Connection::ffff:127.0.0.1 ended.
-[INFO | 13:2:9] Connection::ffff:127.0.0.1 closed.
-[INFO | 13:5:58] Starting server...
-[INFO | 13:5:58] Loaded config.json.
-[INFO | 13:5:58] Server started. Listening to port 25565.
-[INFO | 13:5:58] Loaded server-icon.png.
-[INFO | 13:6:8] Incoming connection from ::ffff:127.0.0.1.
-Package ID: 0    Connection status: 0
-{ protocolVersion: 335,
-  serverAddress: 'localhost',
-  serverPort: 56675,
-  nextState: 2 }
-[INFO | 13:6:8] Recieved handshake package from ::ffff:127.0.0.1.
-<Buffer 10 00 cf 02 09 6c 6f 63 61 6c 68 6f 73 74 63 dd 02 0d 00 0b 44 6f 6c 70 68 69 6e 54 65 63 68>
-[INFO | 13:6:38] Connection::ffff:127.0.0.1 ended.
-[INFO | 13:6:38] Connection::ffff:127.0.0.1 closed.
-[INFO | 13:10:1] Incoming connection from ::ffff:127.0.0.1.
-Package ID: 0    Connection status: 0
-{ protocolVersion: 335,
-  serverAddress: 'localhost',
-  serverPort: 56675,
-  nextState: 1 }
-[INFO | 13:10:1] Recieved handshake package from ::ffff:127.0.0.1.
-<Buffer 10 00 cf 02 09 6c 6f 63 61 6c 68 6f 73 74 63 dd 01 01 00>
-[INFO | 13:10:31] Connection::ffff:127.0.0.1 ended.
-[INFO | 13:10:31] Connection::ffff:127.0.0.1 closed.
-[INFO | 13:10:31] Incoming connection from ::ffff:127.0.0.1.
-Package ID: 122    Connection status: 0
-{ protocolVersion: 11,
-  serverAddress: '',
-  serverPort: 77,
-  nextState: 67 }
-D:\node\podzol\lib\parse.js:26
-        if (pkg.nextState > 2 || pkg.nextState < 1) throw new Error("invalid next state field: " + pkg.nextState+data.toString("hex"));
-                                                    ^
+Error: listen EADDRINUSE :::25565
+    at Object.exports._errnoException (util.js:1020:11)
+    at exports._exceptionWithHostPort (util.js:1043:20)
+    at Server._listen2 (net.js:1258:14)
+    at listen (net.js:1294:10)
+    at Server.listen (net.js:1390:5)
+    at Object.<anonymous> (D:\node\podzol\lib\podzol.js:22:8)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+[INFO | 17:43:35] Starting server...
+[WARN | 17:43:35] Missing or invalid value for 'max-players' in config.json. Proceeding with default value.
+[WARN | 17:43:35] Missing or invalid value for 'online-players' in config.json. Proceeding with default value.
+[WARN | 17:43:35] Missing or invalid value for 'description' in config.json. Proceeding with default value.
+[WARN | 17:43:35] Missing or invalid value for 'version' in config.json. Proceeding with default value.
+[WARN | 17:43:35] Missing or invalid value for 'protocol' in config.json. Proceeding with default value.
+[INFO | 17:43:35] Loaded config.json.
+events.js:160
+      throw er; // Unhandled 'error' event
+      ^
 
-Error: invalid next state field: 67fe01fa000b004d0043007c00500069006e00670048006f0073007400197f0009006c006f00630061006c0068006f00730074000063dd
-    at Socket.module.exports (D:\node\podzol\lib\parse.js:26:59)
-    at emitOne (events.js:101:20)
-    at Socket.emit (events.js:188:7)
-    at readableAddChunk (_stream_readable.js:176:18)
-    at Socket.Readable.push (_stream_readable.js:134:10)
-    at TCP.onread (net.js:547:20)
+Error: listen EADDRINUSE :::25565
+    at Object.exports._errnoException (util.js:1020:11)
+    at exports._exceptionWithHostPort (util.js:1043:20)
+    at Server._listen2 (net.js:1258:14)
+    at listen (net.js:1294:10)
+    at Server.listen (net.js:1390:5)
+    at Object.<anonymous> (D:\node\podzol\lib\podzol.js:22:8)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+[INFO | 17:43:45] Starting server...
+[WARN | 17:43:45] Missing or invalid value for 'max-players' in config.json. Proceeding with default value.
+[WARN | 17:43:45] Missing or invalid value for 'online-players' in config.json. Proceeding with default value.
+[WARN | 17:43:45] Missing or invalid value for 'description' in config.json. Proceeding with default value.
+[WARN | 17:43:45] Missing or invalid value for 'version' in config.json. Proceeding with default value.
+[WARN | 17:43:45] Missing or invalid value for 'protocol' in config.json. Proceeding with default value.
+[INFO | 17:43:45] Loaded config.json.
+events.js:160
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE :::25565
+    at Object.exports._errnoException (util.js:1020:11)
+    at exports._exceptionWithHostPort (util.js:1043:20)
+    at Server._listen2 (net.js:1258:14)
+    at listen (net.js:1294:10)
+    at Server.listen (net.js:1390:5)
+    at Object.<anonymous> (D:\node\podzol\lib\podzol.js:22:8)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+[INFO | 17:57:15] Starting server...
+[WARN | 17:57:15] Missing or invalid value for 'max-players' in config.json. Proceeding with default value.
+[WARN | 17:57:15] Missing or invalid value for 'online-players' in config.json. Proceeding with default value.
+[WARN | 17:57:15] Missing or invalid value for 'description' in config.json. Proceeding with default value.
+[WARN | 17:57:15] Missing or invalid value for 'version' in config.json. Proceeding with default value.
+[WARN | 17:57:15] Missing or invalid value for 'protocol' in config.json. Proceeding with default value.
+[INFO | 17:57:15] Loaded config.json.
+events.js:160
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE :::25565
+    at Object.exports._errnoException (util.js:1020:11)
+    at exports._exceptionWithHostPort (util.js:1043:20)
+    at Server._listen2 (net.js:1258:14)
+    at listen (net.js:1294:10)
+    at Server.listen (net.js:1390:5)
+    at Object.<anonymous> (D:\node\podzol\lib\podzol.js:22:8)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+[INFO | 17:58:14] Starting server...
+[WARN | 17:58:14] Missing or invalid value for 'max-players' in config.json. Proceeding with default value.
+[WARN | 17:58:14] Missing or invalid value for 'online-players' in config.json. Proceeding with default value.
+[WARN | 17:58:14] Missing or invalid value for 'description' in config.json. Proceeding with default value.
+[WARN | 17:58:14] Missing or invalid value for 'version' in config.json. Proceeding with default value.
+[WARN | 17:58:14] Missing or invalid value for 'protocol' in config.json. Proceeding with default value.
+[INFO | 17:58:14] Loaded config.json.
+events.js:160
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE :::25565
+    at Object.exports._errnoException (util.js:1020:11)
+    at exports._exceptionWithHostPort (util.js:1043:20)
+    at Server._listen2 (net.js:1258:14)
+    at listen (net.js:1294:10)
+    at Server.listen (net.js:1390:5)
+    at Object.<anonymous> (D:\node\podzol\lib\podzol.js:22:8)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+[INFO | 18:01:15] Starting server...
+[WARN | 18:01:15] Missing or invalid value for 'max-players' in config.json. Proceeding with default value.
+[WARN | 18:01:15] Missing or invalid value for 'online-players' in config.json. Proceeding with default value.
+[WARN | 18:01:15] Missing or invalid value for 'description' in config.json. Proceeding with default value.
+[WARN | 18:01:15] Missing or invalid value for 'version' in config.json. Proceeding with default value.
+[WARN | 18:01:15] Missing or invalid value for 'protocol' in config.json. Proceeding with default value.
+[INFO | 18:01:15] Loaded config.json.
+events.js:160
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE :::25565
+    at Object.exports._errnoException (util.js:1020:11)
+    at exports._exceptionWithHostPort (util.js:1043:20)
+    at Server._listen2 (net.js:1258:14)
+    at listen (net.js:1294:10)
+    at Server.listen (net.js:1390:5)
+    at Object.<anonymous> (D:\node\podzol\lib\podzol.js:22:8)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+[INFO | 18:01:27] Starting server...
+[WARN | 18:01:27] Missing or invalid value for 'max-players' in config.json. Proceeding with default value.
+[WARN | 18:01:27] Missing or invalid value for 'online-players' in config.json. Proceeding with default value.
+[WARN | 18:01:27] Missing or invalid value for 'description' in config.json. Proceeding with default value.
+[WARN | 18:01:27] Missing or invalid value for 'version' in config.json. Proceeding with default value.
+[WARN | 18:01:27] Missing or invalid value for 'protocol' in config.json. Proceeding with default value.
+[INFO | 18:01:27] Loaded config.json.
+events.js:160
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE :::25565
+    at Object.exports._errnoException (util.js:1020:11)
+    at exports._exceptionWithHostPort (util.js:1043:20)
+    at Server._listen2 (net.js:1258:14)
+    at listen (net.js:1294:10)
+    at Server.listen (net.js:1390:5)
+    at Object.<anonymous> (D:\node\podzol\lib\podzol.js:22:8)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+[INFO | 18:03:33] Starting server...
+[WARN | 18:03:33] Missing or invalid value for 'max-players' in config.json. Proceeding with default value.
+[WARN | 18:03:33] Missing or invalid value for 'online-players' in config.json. Proceeding with default value.
+[WARN | 18:03:33] Missing or invalid value for 'description' in config.json. Proceeding with default value.
+[WARN | 18:03:33] Missing or invalid value for 'version' in config.json. Proceeding with default value.
+[WARN | 18:03:33] Missing or invalid value for 'protocol' in config.json. Proceeding with default value.
+[INFO | 18:03:33] Loaded config.json.
+events.js:160
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE :::25565
+    at Object.exports._errnoException (util.js:1020:11)
+    at exports._exceptionWithHostPort (util.js:1043:20)
+    at Server._listen2 (net.js:1258:14)
+    at listen (net.js:1294:10)
+    at Server.listen (net.js:1390:5)
+    at Object.<anonymous> (D:\node\podzol\lib\podzol.js:22:8)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+[INFO | 18:05:57] Starting server...
+[WARN | 18:05:57] Missing or invalid value for 'max-players' in config.json. Proceeding with default value.
+[WARN | 18:05:57] Missing or invalid value for 'online-players' in config.json. Proceeding with default value.
+[WARN | 18:05:57] Missing or invalid value for 'description' in config.json. Proceeding with default value.
+[WARN | 18:05:57] Missing or invalid value for 'version' in config.json. Proceeding with default value.
+[WARN | 18:05:57] Missing or invalid value for 'protocol' in config.json. Proceeding with default value.
+[INFO | 18:05:57] Loaded config.json.
+[INFO | 18:05:57] Server started. Listening to port 25565.
+[INFO | 18:05:57] Loaded server-icon.png.
+[INFO | 18:06:01] Incoming connection from ::ffff:127.0.0.1.
+[INFO | 18:06:01] Recieved handshake package from ::ffff:127.0.0.1 who is attempting to ping
+[INFO | 18:06:01] Responded with latency pong.
+[INFO | 18:06:01] Connection::ffff:127.0.0.1 closed.
+[INFO | 18:12:46] Incoming connection from ::ffff:127.0.0.1.
+[INFO | 18:12:46] Recieved handshake package from ::ffff:127.0.0.1 who is attempting to ping
+[INFO | 18:12:46] Responded with latency pong.
+[INFO | 18:12:46] Connection::ffff:127.0.0.1 closed.
+[INFO | 18:13:40] Incoming connection from ::ffff:127.0.0.1.
+[INFO | 18:13:40] Recieved handshake package from ::ffff:127.0.0.1 who is attempting to ping
+[INFO | 18:13:40] Responded with latency pong.
+[INFO | 18:13:40] Connection::ffff:127.0.0.1 closed.
