@@ -1,3 +1,11 @@
-{"port":25565,
- "login-message":{"text":"Welcome to Minecraft.Tools","bold":true,"color":"dark_aqua","clickEvent":{"action":"open_url","value":"www.google.at"}}
+{
+    "port": 25565,
+    "max-players": 0,
+    "online-players": 0,
+    "description": "§6A Podzol server",
+    "version": "Podzol 0.5.0",
+    "protocol": -1,
+    "login-message": {"text": "Podzol Server",
+    "color": "aqua"
+}
 }

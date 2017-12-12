@@ -19,6 +19,7 @@
   "author": "DolphinTech",
   "license": "ISC",
   "dependencies": {
+    "colors": "^1.1.2",
     "is-running": "^2.1.0",
     "minimist": "^1.2.0"
   }

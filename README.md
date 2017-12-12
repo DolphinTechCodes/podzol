@@ -1,10 +1,9 @@
 # Podzol
 **A fallback server for minecraft**
 
+Version: 1.0.0
 
 
-
-but here is a nice image of the podzol block
 ![](./podzol.png)
 
 ## Installation
@@ -30,3 +29,26 @@ Type `podzol stop` to stop the server.
 
 
 ### Displaying version
+Type `podzol -v` to output the current version.
+
+## Config
+
+The configuration for Podzol is saved in `config.json` in the main directory.
+### Port
+Integer between 0 and 65535. The port Podzol listens to. Default is `25565`.
+### Version
+String. The version that is displayed to the minecraft client in the server list. Default is `"Podzol 1.0.0"`.
+### Protocol
+Integer. The protocol version Podzol should respond to the client when pinging (A list of versions is available [here](http://wiki.vg/Protocol_version_numbers)). If explicitely set, this may stop clients from pinging. Set it to `-1` to respond with the protocol version the client uses. Default is `-1`. 
+### Max-Players
+Integer. The slots of the server pinged to the client. Default is `0`.
+### Online-Players
+Integer. The players online pinged to the client. Default is `0`.
+### Description
+String or [JSON-Text](https://minecraft-de.gamepedia.com/JSON-Text) object. The description/MOTD of the server.
+It can be a string (including [formatting codes](https://minecraft.gamepedia.com/Formatting_codes)) or a valid JSON-Text object or list. Default is `"§6A Podzol server"`
+
+### Login-Message
+String or [JSON-Text](https://minecraft-de.gamepedia.com/JSON-Text) object. The message displayed when the client logs in.
+It can be a string (including [formatting codes](https://minecraft.gamepedia.com/Formatting_codes))
+ or a valid JSON-Text object or list. Default is `{"text":"Podzol Server","color":"aqua"}`
